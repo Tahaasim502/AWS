@@ -165,29 +165,27 @@ echo "<h1>First Nginx Server</h1>" > /usr/share/nginx/html/index.html
 ---
 ## 8. Lets look how to setup an Apache Server
 
-First click on All-Services and then use EC2(the server in the cloud )
+First click on All-Services and then use EC2 (the server in the cloud)
 
-![[Pasted Image 20260503121305_962.png]]   
+![](Pasted%20Image%2020260503121305_962.png)
 
-After clicking on EC2, click on launch instance then name the VM and OS image, and make sure 
-to allow both HTTP traffic, if not you will have to configure it in the security group.
+After clicking on EC2, click on launch instance then name the VM and OS image, and make sure to allow both HTTP traffic, if not you will have to configure it in the security group.
 
-![[Pasted image 20260503121625.png]]
+![](Pasted%20image%2020260503121625.png)
 
 Once the instance has launched you can connect to the CLI amazon Linux
 
-![[Pasted image 20260503121900.png]]
+![](Pasted%20image%2020260503121900.png)
 
-Switch to root user and then update all the packages using yum that is used for amazon linux just like apt in Ubuntu, after that we install the apache server using httpd(apche server).
+Switch to root user and then update all the packages using yum that is used for amazon linux just like apt in Ubuntu, after that we install the apache server using httpd (apache server).
 
-![[Pasted image 20260503122254.png]]
+![](Pasted%20image%2020260503122254.png)
 
 Started and enabled the server and wrote few commands to be displayed on the website.
 
-![[Pasted image 20260503122438.png]]
+![](Pasted%20image%2020260503122438.png)
 
-Apache Server has been created,
-In order to access it you to access it using the public IP address, that can be seen on your instance.
+Apache Server has been created. In order to access it you use the public IP address, that can be seen on your instance.
 
-![[Pasted image 20260503122527.png]]
+![](Pasted%20image%2020260503122527.png)
 
