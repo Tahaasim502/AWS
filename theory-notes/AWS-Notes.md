@@ -196,3 +196,34 @@ hostname -f        ← FQDN = Fully Qualified Domain Name
 - Allow **ICMP** → Enable ping (no port needed)
 
 ---
+## 6. AWS Storage — EBS (Elastic Block Store)
+
+### 6.1 Block Storage
+- **Block** = Fixed storage size
+- You define the size upfront when creating the volume (e.g. 8 GiB)
+
+### 6.2 IOPS (Input/Output Operations Per Second)
+- How fast the disk can read/write data
+- Higher IOPS = faster disk performance
+- Critical for databases and high-read/write applications
+
+### 6.3 Bandwidth
+- Default: **125 MB/s**
+- How much data can flow through the disk per second
+- For computers it works in **binary (base 2)**
+
+### 6.4 MiB vs MB
+| Unit | Base | Value |
+|------|------|-------|
+| MiB (Mebibyte) | Base 2 (2²⁰) | 1,048,576 bytes |
+| MB (Megabyte) | Base 10 (10⁶) | 1,000,000 bytes |
+
+- **1 MiB = 1.04878 MB**
+- **AWS uses MiB** → accurate representation of how RAM and hardware work at binary level
+- **MB** = bits per second (networking/internet standard)
+
+### 6.5 Storage Capacity
+- Maximum EBS storage: **64 TB**
+
+> **MiB** = Accurate representation of how data is stored on RAM  
+> **MB** = Networking standard (base 10)
